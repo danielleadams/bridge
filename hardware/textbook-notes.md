@@ -34,3 +34,46 @@
   - good for many small computations done in parallel, like rendering polygons in graphics application.
   - not great for serial tasks
   - also hard to program
+
+  ## Memory
+  - ideally, memory should be faster than executing instruction so that CPU is not held up by memory, large, and cheap
+  - memory system is constructed as hierarchy of layers
+  - top have higher speed, smaller capacity and greater cost per bit than lower
+    - top layer conists of registers internal to CPU and made of same material as CPU, so just as fast; no delay in accessing them
+    - programs must manage registers (ie. decide what to keep in them) themselves in the software
+
+### Caching
+- cache is controlled by hardware
+  - main memory is divided into **cache lines**, typically 64 bytes
+  - kept close to CPU so when needed, it makes a **cache hit** to check which takes 2 clock cycles; does not use bus
+  - some machines have 2 or 3 levels of cache, each one slower than the last
+
+  #### Frequent Cache Questions
+  - When to put a new item into cache.
+  - Which cache line to put new item in.
+  - Which item to remove from cache when slot is needed
+  - Where to put newly evicted item in larger memory.
+
+- modern CPU has 2 cache; difference between 2 lies in timing
+  1. L1 cache is inside CPU and feeds decoded instructions into CPY execution engine; no delay
+  2. L2 cache holds several MB of recently used memory words; 1 or 2 clock cycles
+
+### RAM
+- sometimes called core memory
+- all CPU requests that cannot be satisfied by cache go to main memory
+
+### ROM (Read Only Memory)
+- small amount of non-volatile random-access memory and not lost when power off
+- programmed at the factory and cannot be changed
+- fast and inexpensive
+- can come with bootstrap loader to start computer
+
+### EEPROM (Electrically Erasable PROM) and flash memory
+- non-volatile but can be erased and rewritten
+- writing takes longer than writing RAM, so used same way ROM is
+- flash also commonly used as storage medium in portable electronic devices, like digital camera or portable music players. if its erased too many times, it wears out
+
+## Disks
+- next in hierarchy is magnetic disk (hard disk)
+- accessing disk is 3 orders of magnitude slower than RAM, but cheaper and larger
+-

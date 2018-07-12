@@ -4,3 +4,5 @@ Dropping all my notes, questions, and other documentation from my Bridge Program
 
 ## Topics Covered
 - Computer Hardware
+- Digital Data
+- Discrete Math

@@ -81,3 +81,25 @@ hex digit | 4 bit binary
     e     |    1110
     f     |    1111
 
+## Addition/Substraction
+- carry over base like adding base 10
+- generalize operations from base 10
+
+
+## Signed Numbers
+- numbers can be represented in negative numbers
+- (26)10 = (11010)2
+- (-26)10 = (-11010)2
+- can't have negatives though because only 0 and 1, not negatives
+- can use sign and magnitutde
+  - 1     000...011010
+    \sign \magnitude
+  - but typical way computers recognize -> it would be two's complement
+- two's complement
+  - to represent in k-bit
+    1. positivce is unsigned binary, padded with a 0 to its left (k-bit)
+    2. sum of a number and its additive inverse is 2^k
+    - (26)10 = (00011010)8
+                complement + 7 bits
+    - [Stack Overlflow](https://stackoverflow.com/questions/1049722/what-is-2s-complement/1049774#1049774)
+  - (-48)10 -> 11010000

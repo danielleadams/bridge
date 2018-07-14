@@ -53,6 +53,8 @@
 
 ## Set Identities
 
+![image of set identities table](http://www.cs.tulane.edu/~carola/teaching/cmps2170/fall14/slides/setIdentities.jpg)
+
 ### Identity Laws
 A n U = A
 A U 0 = A

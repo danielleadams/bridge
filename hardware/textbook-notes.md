@@ -76,4 +76,8 @@
 ## Disks
 - next in hierarchy is magnetic disk (hard disk)
 - accessing disk is 3 orders of magnitude slower than RAM, but cheaper and larger
--
+- accessed like a vinyl record
+- read a track, and all tracks for given arm position for a cylinder
+- some disks aren't disks at all, such as **SSDs** (Solid State Disks)
+  - these don't have moving parts, do not contain platters in shape of disks, and store data in Flash memory
+  - the only way they are disks is they keep stored data when the computer is shut off

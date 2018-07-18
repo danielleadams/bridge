@@ -28,7 +28,7 @@
   - with elements or members.
   - A set is said to contain elements
   - a ∈ A: A contains a
-  - a ∈/ A: A does not contain a
+  - a ∉ A: A does not contain a
   - { a, b, c, d } describes a set
 - a set can be a subset of itself
   - while true intuitively -> should be proven too with logical statements/theorem
@@ -47,21 +47,21 @@
   - to specify multiple sets can use union of n sets
 - "intersection" is elements in common (ie. A n B)
   - can also express intersection of n sets
-- when A does not intersect B, they are disjoint
+- when A does not intersect B, they are **disjoint**
 - A \ B is the difference of A and B or A minus B
 - complement of an A set is all elements not in A
 
 ## Set Identities
 
-![image of set identities table](http://www.cs.tulane.edu/~carola/teaching/cmps2170/fall14/slides/setIdentities.jpg)
+![image of set identities](https://www.ma.utexas.edu/smmg/archive/2012/Moore/Sets_Laws.pdf)
 
 ### Identity Laws
-A n U = A
-A U 0 = A
+A ∩ U = A
+A ∪ ∅ = A
 
 ### Domination Laws
-A U U = U
-A n 0 = 0
+A ∪ U = U
+A ∩ ∅ = ∅
 
 ### Idempotent Laws
 - A union or intersection of itself is A
@@ -70,16 +70,16 @@ A n 0 = 0
 - complement of A, and then the complement of that will equal A
 
 ### Cummutative Laws
-- A U B === B U A
-- A n B === B n A
+- A ∪ B === B ∪ A
+- A ∩ B === B ∩ A
 
 ### Associative Laws
-- A U (B U C) === (A U B) U C
-- A n (B n C) === (A n B) n C
+- A ∪ (B ∪ C) === (A ∪ B) ∪ C
+- A ∩ (B ∩ C) === (A ∩ B) ∩ C
 
 ### Distributive Laws
-- A U (B n C) === (A U B) n (A U C)
-- A n (B U C) === (A n B) U (A n C)
+- A ∪ (B ∩ C) === (A ∪ B) ∩ (A ∪ C)
+- A ∩ (B ∪ C) === (A ∩ B) ∪ (A ∩ C)
 
 #### Membership Table for Distributive Property
 - can construct table to prove results
@@ -88,12 +88,12 @@ A n 0 = 0
   - what we can find is that the columns are equal for multiple values of sets
 
 ### De Morgan's Laws
-- complement of A intersect B is equal to complement of A U complement of B
-- complement of A U B is equal to complement of A intersect complement of B
+- complement of (A ∩ B) is equal to (complement of A) ∪ (complement of B)
+- complement of (A ∪ B) is equal to (complement of A) ∩ (complement of B)
 
 ### Absorption Laws
-- A U (A n C) = A
-- A n (A U B) = A
+- A ∪ (A n C) = A
+- A ∩ (A ∪ B) = A
 
 ### Complement Laws
 - A union complement of A is universal

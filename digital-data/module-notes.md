@@ -35,7 +35,7 @@
 - 0 - 9, then a - f; 10 - 19, then 1a - 1f, then 20
 
 ## Equivalent Representations
-(13)10 === (15)8 === (23)5 === (1101)2 === (D)16
+`(13)10 === (15)8 === (23)5 === (1101)2 === (D)16`
 
 ## Base Conversions
 1. N in base b -> N in decimal
@@ -51,35 +51,40 @@ a. (123)8 -> base 10 = 3 * 8^0 + 2 * 8^1 + 1 * 8^2 = (83)10
 2. N in decimal -> N in base b
   - (75)10 -> ( __ )2
 
+```
     _  _  _  1  0  0  1  0  1  1
 2^ (9  8  7  6  5  4  3  2  1  0)
 
 - method exposes bits from left to right
+```
 
 3. N in binary <--> N in hexadecimal
-  - (3b9)16 = ( 0011 1011 1001 )2
-                \3    \b   \9
+  - (3b9)16
+    - 0011 -> 3
+    - 1011 -> b
+    - 1001 -> 9
   - transfer digit by digit independently
   - ( 0110 1101 0011 )2 = (6d3)16
-      \6    \d   \3
-hex digit | 4 bit binary
-----------+--------------
-    0     |    0000
-    1     |    0001
-    2     |    0010
-    3     |    0011
-    4     |    0100
-    5     |    0101
-    6     |    0110
-    7     |    0111
-    8     |    1000
-    9     |    1001
-    a     |    1010
-    b     |    1011
-    c     |    1100
-    d     |    1101
-    e     |    1110
-    f     |    1111
+
+
+| hex digit | 4 bit binary |
+| ---------:| ------------:|
+|     0     |    0000      |
+|     1     |    0001      |
+|     2     |    0010      |
+|     3     |    0011      |
+|     4     |    0100      |
+|     5     |    0101      |
+|     6     |    0110      |
+|     7     |    0111      |
+|     8     |    1000      |
+|     9     |    1001      |
+|     a     |    1010      |
+|     b     |    1011      |
+|     c     |    1100      |
+|     d     |    1101      |
+|     e     |    1110      |
+|     f     |    1111      |
 
 ## Addition/Substraction
 - carry over base like adding base 10
@@ -91,9 +96,11 @@ hex digit | 4 bit binary
 - (26)10 = (11010)2
 - (-26)10 = (-11010)2
 - can't have negatives though because only 0 and 1, not negatives
-- can use sign and magnitutde
-  - 1     000...011010
+- can use sign and magnitude
+  ```
+    1     000...011010
     \sign \magnitude
+  ```
   - but typical way computers recognize -> it would be two's complement
 - two's complement
   - to represent in k-bit

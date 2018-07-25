@@ -81,3 +81,9 @@
 - some disks aren't disks at all, such as **SSDs** (Solid State Disks)
   - these don't have moving parts, do not contain platters in shape of disks, and store data in Flash memory
   - the only way they are disks is they keep stored data when the computer is shut off
+
+## I/O Devices
+- generally consist of two parts: controller and the device itself.
+  - controller is a chip or set of chips that physically control device
+  - accepts commands from OS, ie. to read data from the device and carry them out
+- a disk controller might accept a command 

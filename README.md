@@ -4,8 +4,11 @@ Dropping all my notes, questions, and other documentation from my Bridge Program
 
 ## Topics Covered
 - Computer Hardware
+- Data Types
 - Digital Data
 - Discrete Math
+- Functions
+- Programming in C++
 
 ## Run Code
 In order to compile and run the C++ files, run the following

@@ -16,15 +16,14 @@ O = {_x_ ∈ **Z**+ | _x_ is odd and x < 10}
 **Q**+ = {_x_ ∈ **R** | _x_ = p/q, for some positive integers _p_ and _q_}
 
 #### important set representations
-```
-**N** = {0,1,2,3,...}, set of **natural numbers**
-**Z** = {...,-2,-1,0,1,2,3,...}, set of **integers**
-**Z**+ = {1,2,3,...}, set of **positive integers**
-**Q** = {p/q | p ∈ **Z**, _q_ ∈ **Z**, and _q_ does not equal 0}, set of **rational integers**
-**R**, set of **real numbers**
-**R**+, set of **positive real numbers**
-**C**, set of **complex numbers**
-```
+
+- **N** = {0,1,2,3,...}, set of **natural numbers**
+- **Z** = {...,-2,-1,0,1,2,3,...}, set of **integers**
+- **Z**+ = {1,2,3,...}, set of **positive integers**
+- **Q** = {p/q | p ∈ **Z**, _q_ ∈ **Z**, and _q_ does not equal 0}, set of **rational integers**
+- **R**, set of **real numbers**
+- **R**+, set of **positive real numbers**
+- **C**, set of **complex numbers**
 
 _Note: sometimes 0 is not a natural number, so be clear to check the definition in other books._
 

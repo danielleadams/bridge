@@ -17,9 +17,9 @@ For f1 and f2 within range of A to R, (f1 + f2)(x) = f1(x) + f2(x)
 ### Image of S under _f_
 _f_ from A to B and S is subset of A: image of S under _f_ is subset of B that consists of images of elements of S. Denoted by image of S by _f_(S), so
 
-_f_(S) = { t | Ǝ s ∈ S (t = _f_(s)) } OR
+_f_ (S) = { t | Ǝ s ∈ S (t = _f_ (s)) } OR
 
-{ _f_(s) | s ∈ S }
+{ _f_ (s) | s ∈ S }
 
 ## Onto/Surjection
 _f_ from A to B is **onto**, or a surjectin, if for every element b ∈ B there is element a ∈ A with _f_(a) = b. Called **surjective** if onto.

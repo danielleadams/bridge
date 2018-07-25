@@ -53,8 +53,6 @@
 
 ## Set Identities
 
-![image of set identities](https://www.ma.utexas.edu/smmg/archive/2012/Moore/Sets_Laws.pdf)
-
 ### Identity Laws
 A ∩ U = A
 A ∪ ∅ = A

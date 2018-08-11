@@ -110,3 +110,4 @@ a. (123)8 -> base 10 = 3 * 8^0 + 2 * 8^1 + 1 * 8^2 = (83)10
                 complement + 7 bits
     - [Stack Overlflow](https://stackoverflow.com/questions/1049722/what-is-2s-complement/1049774#1049774)
   - (-48)10 -> 11010000
+  - can also do this another way by flipping then adding 1
